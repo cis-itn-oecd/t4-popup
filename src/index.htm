@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>T4 Popup</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/popup_css.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/popup.js"></script>
+</head>
+<body>
+
+		<h1>Test Popup Page</h1>
+		<div style="padding-left:20px">
+				<h2>Mode</h2>
+				<label for="showOnExit">Show On Exit: </label><br/>
+				<input style="width:50%;" type="text" id="showOnExit" name="showOnExit" />
+				<br/>
+
+				<label for="showOnClick">Show On Click: </label><br/>
+				<input style="width:50%;" type="text" id="showOnClick" name="showOnClick" />
+				<br/>
+
+				<label for="showOnMinutes">Show On Minutes: </label><br/>
+				<input style="width:50%;" type="text" id="showOnMinutes" name="showOnMinutes" />
+
+				<h2>Pages Affected</h2>
+				<label for="allPages">All Pages: </label><br/>
+				<input style="width:50%;" type="text" id="allPages" name="allPages" />
+				<br/>
+
+				<label for="pagesList">Or Pages List: </label><br/>
+				<textarea style="width:50%;height:100px" id="pagesList" name="pagesList"></textarea>
+				<br/>
+				
+				<br/>
+				<input type="button" name="Configure" value="Configure" id="Configure" />
+		</div>
+		<script src="js/popup-config.js"></script>
+
+</body>
+</html>
